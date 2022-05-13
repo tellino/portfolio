@@ -1,0 +1,107 @@
+/* Color Palette: https://coolors.co/594157-726da8-7d8cc4-a0d2db-bee7e8 */
+
+body {
+    background-color: #BEE7E8;
+    margin: 0;
+}
+
+hr {
+    border-top: 10px dotted #726DA8;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+    margin-bottom: 30px;
+    width: 20%;
+}
+
+#image-text-container {
+    width: 100%;
+    margin: 100px auto;
+
+    text-align: center;
+}
+
+#personal-image-container {
+    margin: auto;
+    width: 256px;
+}
+
+#personal-image {
+    border-radius: 50%;
+
+    height: 256px;
+    width: 256px;
+}
+
+#personal-name-text-container {
+    margin-top: 10px;
+}
+
+#personal-name-text p {
+    margin: 0;
+
+    font-family: "Millenia";
+    font-size: 60px;
+    color: #594157;
+}
+
+#info-container {
+    background-color: #A0D2DB;
+    position: relative;
+}
+
+#info-title p {
+    margin: 0;
+
+    font-family: 'BioRyhme';
+    font-size: 40px;
+    color: #594157;
+
+    padding-top: 50px;
+    text-align: center;
+}
+
+#info-desc p {
+    margin: 0;
+    position: relative;
+
+    font-family: 'BioRyhme';
+    font-size: 20px;
+
+    width: 50%;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 25%;
+    text-align: center;
+}
+
+#copyright-paragraph {
+    text-align: center;
+    color: #272727;
+    
+    font-family: "Courier Now", monospace;
+    font-size: 13px;
+    font-weight: 600;
+
+    padding-bottom: 20px;
+}
+
+#copyright-container {
+    position: relative;
+    text-align: center;
+
+    top: 500px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Millenia';
+    src: url("../fonts/millenia.ttf");
+}
+
+@font-face {
+    font-family: 'BioRyhme';
+    src: url('../fonts/bio-rhyme.ttf');
+}
